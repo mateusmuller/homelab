@@ -1,0 +1,4 @@
+name: Technitium DNS
+url: https://dns.example.com
+accepted_status_codes:
+  - 200

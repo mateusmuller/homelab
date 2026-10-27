@@ -1,0 +1,21 @@
+monitor:
+  active: true
+  type: http
+  interval: 60
+  retry_interval: 30
+  resend_interval: 0
+  max_retries: 3
+  upside_down: false
+  method: GET
+  ignore_tls: false
+  max_redirects: 10
+  url: null
+  hostname: null
+  port: null
+  keyword: null
+  body: null
+  headers: {}
+  accepted_status_codes: null
+  notification_id_list:
+    - 1
+  tags: null

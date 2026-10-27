@@ -1,0 +1,5 @@
+name: OPNsense
+url: https://opnsense.example.com
+ignore_tls: false
+accepted_status_codes:
+  - 200

@@ -1,0 +1,24 @@
+* text=auto eol=lf
+
+*.crt text
+*.ini text
+*.json text
+*.md text
+*.sh text eol=lf
+*.tf text
+*.yaml text
+*.yml text
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.inf text eol=crlf
+*.oem text eol=crlf
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+
+*.cat binary
+*.dll binary
+*.exe binary
+*.iso binary
+*.png binary
+*.sys binary

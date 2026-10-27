@@ -1,0 +1,4 @@
+name: CloudStack
+url: https://cloudstack.example.com
+accepted_status_codes:
+  - 200

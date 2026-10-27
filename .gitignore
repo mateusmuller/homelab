@@ -1,0 +1,70 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local Git metadata preserved while repositories are consolidated
+**/.git-backup/
+
+# Python and Ansible runtime files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.retry
+.ansible/
+
+# Local environment and credential files
+*.env
+!*.env.example
+.envrc
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+*.kubeconfig
+kubeconfig
+**/.vault-pass*
+**/vault.yml
+!**/vault.yml.example
+**/.cloudstack-credentials/
+**/.root-token
+**/.reconstruct-keys
+cloudstack/cluster-api/secret.yml
+iac/homelab/openbao/config/secrets/
+
+# Terraform working data and state
+**/.terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Image Builder output, caches, and generated credentials
+cloudstack/image-builder/images/capi/.bin/
+cloudstack/image-builder/images/capi/.local/
+cloudstack/image-builder/images/capi/output/
+cloudstack/image-builder/images/capi/output-*/
+cloudstack/image-builder/images/capi/packer_cache/
+cloudstack/image-builder/images/capi/packer/ssh-password.auto.pkrvars.json
+cloudstack/image-builder/images/capi/debug-goss-spec.yaml
+cloudstack/image-builder/images/capi/goss-spec.yaml
+*.iso
+*.qcow
+*.qcow2
+*.raw
+*.vdi
+*.vhd
+*.vhdx
